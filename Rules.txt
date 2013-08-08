@@ -1,0 +1,25 @@
+Rules
+
+Charater stats:
+
+HP - Health Points = base 100
+Sta - Stamina = Base 10, 1 point = plus 10 HP
+Str - Strength = base 10, 1 point = plus 2 Str
+Dex - Dexterity = Base 10, 1 point = plus 1 to str & plus 1 Def
+Int - Intelect = Base 10, 1 point = plus 2 Int
+Spi - Spirit = Base 10, 1 point = plus 1 to Int & plus 1 to Def
+Def - Defence = base 10, 1 point = plus 2 def
+
+Damage formula:
+
+Physical: 
+
+Total Damage = (WeapDmg * ((2xstr) + dex))/14 		~ variation to be added too ~
+Defence From Damage = Total Damage * (def /100)     }?
+Damage Done = Total Damage - Defence From Damage    } These can most liekly be put together in one formula
+
+Magic:
+
+Total Damage = (SpellDmg * ((2*int)+ spi))/14		~ variation to be added too ~
+Defence From Damage = Total Damage * (def /100)     }?
+Damage Done = Total Damage - Defence From Damage    } These can most liekly be put together in one formula

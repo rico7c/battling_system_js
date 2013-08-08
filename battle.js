@@ -30,9 +30,6 @@ var battle = function (){
 		hp_player = hp_player - 5;
 		console.log("Attackers health points drops by 5")
 	}
-
-	//return hp_player, hp_bot;
-
 }
 
 while (hp_player > 0 && hp_bot > 0 ) {

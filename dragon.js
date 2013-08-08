@@ -55,7 +55,7 @@ while (fight && HP > 0 && dragon_hp > 0 ){
   console.log("Players heath: " + HP + " Dragons health: " + dragon_hp);
   console.log("------------------------");
 
-  attack = prompt ("Do you wiant to attack the Dragon?", "yes or no").toLowerCase();
+  attack = prompt ("Do you want to attack the Dragon?", "yes or no").toLowerCase();
 
   youHit = Math.floor(Math.random() * 2);
   dragonHit = Math.floor(Math.random() * 2);
